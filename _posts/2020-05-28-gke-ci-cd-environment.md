@@ -116,12 +116,12 @@ branches:
 - travisCI Home 이동
   (https://travis-ci.com/)
 - 우측 중단에 'More options' > 'Settings' > 'Environment Variables' 에 아래 4가지 환경변수 추가
- | Environment                        | Description                                                      |
- | ---------------------------------- | ---------------------------------------------------------------- |
- | GCLOUD_CLUSTER_NAME                | Your GCLOUD Cluster Name                                         |
- | GCLOUD_ZONE                        | Your GCLOUD Zone Name                                            |
- | PROJECT_ID                         | Your GCLOUD Project ID                                           |
- | SERVICE_HOME                       | ${HOME}/build/[YOUR_GOOGLE_ID]/spring-cloud-example-in-kubernetes|
+| Environment                        | Description                                                      |
+| ---------------------------------- | ---------------------------------------------------------------- |
+| GCLOUD_CLUSTER_NAME                | Your GCLOUD Cluster Name                                         |
+| GCLOUD_ZONE                        | Your GCLOUD Zone Name                                            |
+| PROJECT_ID                         | Your GCLOUD Project ID                                           |
+| SERVICE_HOME                       | ${HOME}/build/[YOUR_GOOGLE_ID]/spring-cloud-example-in-kubernetes|
 
 ### Git push
 [YOUR_GIT_BRANCH_NAME]는 본인의 Git Branch 명을 기입한다.
