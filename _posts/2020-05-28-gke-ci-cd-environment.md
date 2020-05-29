@@ -136,8 +136,17 @@ git push origin HEAD:[YOUR_GIT_BRANCH_NAME]
 ### 빌드/배포 확인하기
 - Travis Home 이동
   (https://travis-ci.com/)
-
 - 'Current' 탭에 현재 빌드되어 배포되는 로그를 확인 할 수 있다.
+- Travis 가상환경에 필요한 설치 작업 진행
+![Installation](./assets/images/posts/gke-ci-cd-environment/travis_install.png)
+- Travis 가상환경에서 gcloud 인증 과정
+![GCLOUD Authorization](./assets/images/posts/gke-ci-cd-environment/travis_gcloud_auth.png)
+- Google Cloud Build를 이용한 이미지 빌드 과정
+![GCLOUD Cloud Build Log](./assets/images/posts/gke-ci-cd-environment/travis_skaffold_continuous_delivery_image_pull.png)
+![GCLOUD Cloud Build Result](./assets/images/posts/gke-ci-cd-environment/cloud_build_result.jpg)
+- Google Kubernetes Engine를 이용한 서비스 배포 과정
+![Google Kubernetes Engine Log](./assets/images/posts/gke-ci-cd-environment/travis_skaffold_continuous_delivery_service_deploy.png)
+![Google Kubernetes Engine Result](./assets/images/posts/gke-ci-cd-environment/gke_deploy_service_result.png)
 
 
 ### 서비스 확인하기
