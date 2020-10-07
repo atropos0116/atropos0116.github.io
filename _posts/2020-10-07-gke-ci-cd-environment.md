@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  CI/CD Environment in GKE(Google Kubernetes Engine)
+excerpt: 'Google Cloud Platform 을 활용한 CI/CD 환경 구축해본다.'
 description: 'Google Cloud Platform 을 활용한 CI/CD 환경 구축해본다.'
 comment: true
 tag: [CI, CD, Kubernetes, k8s, Travis, Skaffold, GKE]
